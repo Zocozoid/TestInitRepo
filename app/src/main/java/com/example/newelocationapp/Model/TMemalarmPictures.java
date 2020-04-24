@@ -1,6 +1,6 @@
 package com.example.newelocationapp.Model;
 
-public class tMemalarmPictures {
+public class TMemalarmPictures {
     private int IDPicture;
     private int ClientNo;
     private int UserID;
@@ -10,7 +10,7 @@ public class tMemalarmPictures {
     private int EmpID;
     private int Deleted;
 
-    public tMemalarmPictures(int IDPicture, int clientNo, int userID,
+    public TMemalarmPictures(int IDPicture, int clientNo, int userID,
                              int timeIns, String pictureName, String path,
                              int empID, int deleted) {
         this.IDPicture = IDPicture;
@@ -23,12 +23,12 @@ public class tMemalarmPictures {
         Deleted = deleted;
     }
 
-    public tMemalarmPictures(String pictureName, String path) {
+    public TMemalarmPictures(String pictureName, String path) {
         PictureName = pictureName;
         Path = path;
     }
 
-    public tMemalarmPictures(int IDPicture, int clientNo, int userID, int timeIns, int empID, int deleted) {
+    public TMemalarmPictures(int IDPicture, int clientNo, int userID, int timeIns, int empID, int deleted) {
         this.IDPicture = IDPicture;
         ClientNo = clientNo;
         UserID = userID;
@@ -37,7 +37,7 @@ public class tMemalarmPictures {
         Deleted = deleted;
     }
 
-    public tMemalarmPictures() {
+    public TMemalarmPictures() {
     }
 
     public int getIDPicture() {

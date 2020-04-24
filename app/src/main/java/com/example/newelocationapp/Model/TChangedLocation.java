@@ -3,7 +3,7 @@ package com.example.newelocationapp.Model;
 public class TChangedLocation {
 
     private int ChLID;
-    private int ClientID;
+    private int ClientNO;
     private int EmpID;
     private int Longitude;
     private int Latitude;
@@ -13,7 +13,7 @@ public class TChangedLocation {
 
     public TChangedLocation(int chLID, int clientID, int empID, int longitude, int latitude, int date, int statusID, int userID) {
         ChLID = chLID;
-        ClientID = clientID;
+        ClientNO = ClientNO;
         EmpID = empID;
         Longitude = longitude;
         Latitude = latitude;
@@ -33,12 +33,12 @@ public class TChangedLocation {
         ChLID = chLID;
     }
 
-    public int getClientID() {
-        return ClientID;
+    public int getClientNO() {
+        return ClientNO;
     }
 
-    public void setClientID(int clientID) {
-        ClientID = clientID;
+    public void setClientNO(int clientNO) {
+        ClientNO = clientNO;
     }
 
     public int getEmpID() {
